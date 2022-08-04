@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    background: #EDF3F8;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family:  'Public Sans';/*bu yerda font turi beriladi*/
+    font-style: normal;
+    
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+  }
+  
+  .main {
+    flex-grow: 1;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+  a {
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  p{
+    margin: 0px;
+    padding: 0px;
+  }

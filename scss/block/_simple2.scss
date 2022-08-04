@@ -1,0 +1,115 @@
+.simple2{
+    &__info{display: flex;
+        text-align: center;
+        column-gap: 50px;
+        align-items: center;
+        width: 100%;
+        &__item1{
+            & > h3{
+                font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+letter-spacing: -0.138462px;
+
+color: #36536B;
+
+            }
+            & > p{
+                font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+letter-spacing: -0.115385px;
+
+color: #6C8294;
+
+            }
+            width: 350px;
+            &::before{
+                content: url(../../images/Group17.svg);
+                width: 106px;
+                height: 106px;
+            }
+
+        }
+        &__item2{
+            & > h3{
+                font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+letter-spacing: -0.138462px;
+
+color: #36536B;
+
+            }
+            & > p{
+                font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+letter-spacing: -0.115385px;
+
+color: #6C8294;
+
+            }
+            width: 350px;
+            &::before{
+                content: url(../../images/Group18.svg);
+                width: 106px;
+                height: 106px;
+            }
+
+        }
+        &__item3{
+            & > h3{
+                font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+letter-spacing: -0.138462px;
+
+color: #36536B;
+
+            }
+            & > p{
+                font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+letter-spacing: -0.115385px;
+
+color: #6C8294;
+
+            }
+            width: 350px;
+            &::before{
+                content: url(../../images/Group19.svg);
+                width: 106px;
+                height: 106px;
+            }
+
+        }
+    }
+}
+@media only screen and (max-width:375px) {
+    .simple2{
+        &__info{
+            display: block;
+        }
+    }
+    
+}

@@ -1,0 +1,67 @@
+.simple{
+    padding-bottom: 300px;
+    &__info{
+        margin-top: 300px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: url(../../images/simple__bg.png);
+            top: -222px;
+            left: 566px;
+            // transform: translateX(546px) translateY(-300px);
+
+
+        }
+      margin-left: 165px;
+      margin-right: auto; 
+width: 445px;
+
+
+        & > h2{
+            font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.369231px;
+
+color: #36536B;
+        }
+        & > p{
+            font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+
+
+color: #6C8294;
+        }
+    }
+}
+@media only screen and(max-width:768px) {
+    .simple{
+        
+        &__info{
+            margin-top: 600px;
+            text-align: center;
+            &::after{
+                top: -603px;
+                left: -110px;
+                // transform: translateX(546px) translateY(-300px);
+    
+    
+            }
+          
+    
+    
+            
+            & > p{
+                width: 573px;
+                margin-left: -100px;
+            }
+        }
+    } 
+    
+}

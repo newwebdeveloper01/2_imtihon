@@ -1,0 +1,64 @@
+footer{
+    background: #1B262F;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    & > ul{
+        column-gap: 40px;
+        margin-left: 60px;
+        display: flex;
+        & > li{
+            
+            & > a{
+                &:hover{
+                    color: white;
+                }
+                font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+
+
+color: #6C8294;
+
+            }
+        }
+    }
+    &__link{display: flex;
+        margin-left: auto;
+        column-gap: 24px;
+        & > svg{
+            &:hover{
+                & > path{
+                    fill: #DA6D97;;
+                }
+            }
+        }
+    }
+}
+@media only screen and(max-width:375px) {
+    .footer{
+       display: block;
+        & > ul{
+            
+            & > li{
+                
+                & > a{
+                    &:hover{
+                        
+                    }
+                    
+    
+                }
+            }
+        }
+        &__link{
+            & > svg{
+                
+                
+            }
+        }
+    }
+  
+}

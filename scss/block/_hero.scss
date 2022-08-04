@@ -1,0 +1,147 @@
+.hero{
+    padding-bottom: 150px;
+    padding-top: 150px;
+    position: relative;
+     &::before{
+        position: absolute;
+            content: "";
+            height: 500px;
+width: 263px;
+
+
+            transform: translateX(1010px) translateY(-50px);
+            border-radius: 34px;
+            background: url(../../images/hero_tel.png);
+
+        }
+//     &::after{
+        
+//         content:"";
+//         // background: url(../../images/hero_bg.png) no-repeat;
+//         // background-size: 780px 780px;
+//         width: 980px;
+//         height: 980px;
+//         border-radius: 50%;
+//         background: #36536B;
+//         mix-blend-mode: normal;
+// opacity: 0.15;
+// z-index: 20;
+// transform: translateX(110px) translateY(-260px);
+//     }
+    // display: flex;
+    background: #EDF3F8;
+    // margin-top: 100px;
+    &__info{
+       
+        
+        & > h2{
+            font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 72px;
+margin: 0px;
+width: 546px;
+padding-bottom: 21px;
+
+letter-spacing: -0.553846px;
+
+color: #36536B;
+        }
+        & > p{
+            font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+margin-left: 25px;
+
+color: #6C8294;
+& > span{
+    font-weight: 700;
+}
+
+        }
+        & > form{
+            position: relative;padding-bottom: 16px;
+            & > input{
+                height: 48px;
+                padding-left: 24px;
+width: 445px;
+border: none;
+background: #FBFCFE;
+box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+border-radius: 24px;
+
+
+            } & > button{
+                    position: absolute;
+                    left: 275px;
+                    top: 0px;
+                    &:hover{
+                        background: #DA6D97;
+                    }
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 18px;
+                    /* identical to box height */
+                    padding: 16px 24px;
+                    letter-spacing: -0.115385px;
+                    background: #BA4270;
+                    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+                    border-radius: 24px;
+                    color: #FBFCFE;
+                    border: 0px;
+                }
+            
+        }
+    }
+}
+@media only screen and(max-width:768px) {
+    .hero{
+        text-align: center;
+        
+         &::before{
+                // content: url(../../images/hero_tel.png);
+                transform: translateX(-110px) translateY(-68px);
+            }
+    //     &::after{
+            
+    //         content:"";
+    //         // background: url(../../images/hero_bg.png) no-repeat;
+    //         // background-size: 780px 780px;
+    //         width: 980px;
+    //         height: 980px;
+    //         border-radius: 50%;
+    //         background: #36536B;
+    //         mix-blend-mode: normal;
+    // opacity: 0.15;
+    // z-index: 20;
+    // transform: translateX(110px) translateY(-260px);
+    //     }
+        // display: flex;
+        
+        // margin-top: 100px;
+        &__info{
+           padding-top: 550px;
+            
+            & > h2{
+                margin: 0 auto;
+                
+width: 573px;
+
+
+            }
+            
+            & > form{
+                
+                 & > button{
+                    left: 415px;
+                       
+                        
+                    }
+                
+            }
+        }
+    }
+    
+}

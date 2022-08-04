@@ -1,0 +1,70 @@
+.easy{
+    position: relative;
+    &__info{
+        &::before{
+            position: absolute;
+            content: url(../../images/about_bg.svg);
+            left: 165px;
+            top: 210px;
+
+        }
+        margin-left: auto;
+        margin-right: 260px;
+        padding-top: 290px;
+        padding-bottom: 100px;
+        width: 445px;
+        & > h2{
+            font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.369231px;
+
+color: #36536B;
+
+        }
+        & > p{
+            font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+/* or 187% */
+
+
+color: #6C8294;
+
+        }
+    }
+}
+@media only screen and(max-width:768px) {
+    .easy{
+        position: relative;
+        &__info{
+            width: 100%;
+            text-align: center;
+            padding-top: 530px;
+            // margin: 0 auto;
+            &::before{
+                left: 127px;
+                
+                
+    
+            }
+            
+            & > h2{
+               
+    text-align: center;
+            }
+            & > p{
+               
+                text-align: center;
+                // width: 573px;
+                
+                
+            }
+        }
+    }
+    
+}
